@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсовой проект</title>
+    <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+<body>
+    <div class="pieces-slider">
+
+        <div class="pieces-slider__slide">
+            <img class="pieces-slider__image" src="image/1.jpg" alt="">
+            <div class="pieces-slider__text">Английский той терьер</div>
+        </div>
+        <div class="pieces-slider__slide">
+            <img class="pieces-slider__image" src="image/2.jpg" alt="">
+            <div class="pieces-slider__text">Кроличья такса</div>
+        </div>
+        <div class="pieces-slider__slide">
+            <img class="pieces-slider__image" src="image/3.jpg" alt="">
+            <div class="pieces-slider__text">Джек рассел терьер</div>
+        </div>
+        <div class="pieces-slider__slide">
+            <img class="pieces-slider__image" src="image/4.jpg" alt="">
+            <div class="pieces-slider__text">Скотч терьер</div>
+        </div>
+        <div class="pieces-slider__slide">
+            <img class="pieces-slider__image" src="image/5.jpg" alt="">
+            <div class="pieces-slider__text">Спаниель</div>
+        </div>
+        
+        <canvas class="pieces-slider__canvas"></canvas>
+    
+        <button class="pieces-slider__button pieces-slider__button--prev">НАЗАД</button>
+        <button class="pieces-slider__button pieces-slider__button--next">ВПЕРЕД</button>
+    </div>
+
+    <script src="./anime.min.js"></script>
+    <script src="./pieces.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
